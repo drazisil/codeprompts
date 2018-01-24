@@ -1,7 +1,7 @@
 {
   "name": "codeprompts",
   "version": "1.0.0",
-  "description": "Nuxt.js project",
+  "description": "Like Writing Prompts, but for Code",
   "author": "Joseph W Becher <jwbecher@drazisil.com>",
   "private": true,
   "scripts": {
