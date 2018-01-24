@@ -1,6 +1,6 @@
 <template>
   <footer class="credits">
-    {{ version }} Created with Nuxt : <a class="orange" href="https://nuxtjs.org" target="_blank">nuxtjs.org</a>
+    <span class="version">{{ version }}</span><span>Created with Nuxt : <a class="orange" href="https://nuxtjs.org" target="_blank">nuxtjs.org</a></span>
   </footer>
 </template>
 

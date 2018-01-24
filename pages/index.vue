@@ -18,12 +18,15 @@
 </template>
 
 <script>
-import axios from '~/plugins/axios'
+import axios from '@/plugins/axios'
 
 export default {
   data () {
     return {
-      promptIndex: 0
+      promptIndex: 0,
+      users: [
+        { name: 'test' }
+      ]
     }
   },
   async asyncData () {
