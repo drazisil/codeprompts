@@ -7,13 +7,13 @@
     <h2 class="subtitle">
       Like Writing Prompts, but for Code
     </h2>
-    <ul class="users">
-      <li v-for="(user, index) in users" :key="index" class="user">
-        <nuxt-link :to="{ name: 'id', params: { id: index }}">
-          {{ user.name }}
-        </nuxt-link>
-      </li>
-    </ul>
+    <h3>
+      <nuxt-link class="app app-title cyan" :to="{ name: 'id', params: { id: promptIndex }}">
+        {{ users[promptIndex].name }}
+      </nuxt-link>
+    </h3>
+    <button class="button" v-on:click="randomIndex">Get Another</button>
+    <p>There are a total of {{ users.length }} prompts.</p>
   </section>
 </template>
 
@@ -21,9 +21,19 @@
 import axios from '~/plugins/axios'
 
 export default {
+  data () {
+    return {
+      promptIndex: 0
+    }
+  },
   async asyncData () {
     let { data } = await axios.get('/api/users')
     return { users: data }
+  },
+  methods: {
+    randomIndex () {
+      this.promptIndex = Math.floor(Math.random() * Math.floor(this.users.length))
+    }
   },
   head () {
     return {

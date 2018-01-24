@@ -21,6 +21,28 @@ html, body
 	font-weight: 400;
 }
 
+a {
+	-webkit-transition: all .3s linear;
+	transition: all .3s linear;
+	text-decoration: none;
+}
+
+.app-title {
+	margin: 20px 0 0;
+	font-size: 36px;
+	color: #BCC2CD;
+	text-align: center;
+	font-family: "abril-text";
+	-webkit-transition: color .3s linear;
+	transition: color .3s linear;
+}
+
+.app:hover .orange { color: #ffb86c; }
+.app:hover .pink { color: #ff79c6; }
+.app:hover .cyan { color: #8be9fd; }
+.app:hover .purple { color: #bd93f9; }
+.app:hover .red { color: #ff5555; }
+
 .category-title.orange { color: #ffb86c; }
 .category-title.cyan { color: #8be9fd; }
 .category-title.purple { color: #bd93f9; }
@@ -30,11 +52,6 @@ footer
   padding: 20px;
   text-align: center;
   border-top: 1px solid #ddd;
-}
-
-a, a:hover, a:focus, a:visited
-{
-  color: #44475a;
 }
 
 .logo {
@@ -104,3 +121,27 @@ a, a:hover, a:focus, a:visited
 .green .instructions a:hover {
 	color: rgba(80, 250, 123, .7);
 }
+
+.credits {
+	text-align: center;
+	font-size: 1.3em;
+	margin: 0 0 60px;
+}
+
+.credits a {
+	text-decoration: none;
+	-webkit-transition: color .3s linear;
+	transition: color .3s linear;
+}
+
+.credits .cyan { color: rgba(139, 233, 253, 1); }
+.credits .cyan:hover { color: rgba(139, 233, 253, .7); }
+
+.credits .green { color: rgba(80, 250, 123, 1); }
+.credits .green:hover { color: rgba(80, 250, 123, .7); }
+
+.credits .orange { color: rgba(255, 184, 108, 1); }
+.credits .orange:hover { color: rgba(255, 184, 108, .7); }
+
+.credits .pink { color: rgba(255, 121, 198, 1); }
+.credits .pink:hover { color: rgba(255, 121, 198, .7); }

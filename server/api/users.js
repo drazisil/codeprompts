@@ -4,9 +4,9 @@ const router = Router()
 
 // Mock Users
 const users = [
-  { name: 'Alexandre' },
-  { name: 'Pooya' },
-  { name: 'Sébastien' },
+  { name: 'Start a code prompts site' },
+  { name: 'Create an nginx configuration manager' },
+  { name: 'Start #100DaysOfCode' }
 ]
 
 /* GET users listing. */
