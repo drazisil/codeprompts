@@ -1,9 +1,12 @@
 <template>
-  <section class="container">
-    <img src="~assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
+  <section class="container green">
+    <img src="~assets/img/coding.jpg" alt="Nuxt.js Logo" class="logo" />
     <h1 class="title">
-      USERS
+      CodePrompts
     </h1>
+    <h2 class="subtitle">
+      Like Writing Prompts, but for Code
+    </h2>
     <ul class="users">
       <li v-for="(user, index) in users" :key="index" class="user">
         <nuxt-link :to="{ name: 'id', params: { id: index }}">
@@ -24,7 +27,7 @@ export default {
   },
   head () {
     return {
-      title: 'Users'
+      title: 'CodePrompts'
     }
   }
 }

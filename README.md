@@ -20,3 +20,9 @@ For detailed explanation on how things work, checkout the [Nuxt.js docs](https:/
 ## Backpack
 
 We use [backpack](https://github.com/palmerhq/backpack) to watch and build the application, so you can use the latest ES6 features (module syntax, async/await, etc.).
+
+## Credits
+
+Coding image - Ruiwen Chua - https://flic.kr/p/5Y5QPG
+
+Site Theme - https://draculatheme.com/
