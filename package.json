@@ -1,6 +1,6 @@
 {
   "name": "codeprompts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Like Writing Prompts, but for Code",
   "author": "Joseph W Becher <jwbecher@drazisil.com>",
   "private": true,
