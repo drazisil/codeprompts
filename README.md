@@ -1,5 +1,7 @@
 # codeprompts
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/drazisil/codeprompts.svg)](https://greenkeeper.io/)
+
 > Nuxt.js project
 
 ## Build Setup
